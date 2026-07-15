@@ -34,8 +34,8 @@
 }
 
 html {
-    font-size: 62.5%; 
-    
+    font-size: 62.5%;
+
 }
 
 body {
@@ -46,8 +46,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-block-size: 100vh;
     padding: 0rem var(--space-300);
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .blog-card {
@@ -55,32 +60,34 @@ body {
     flex-direction: column;
     gap: var(--space-150);
     background-color: var(--White-blog-card__fon);
-    padding: var(--space-300) clamp(1.6rem, 4vw, 2.4rem);
+    padding-block: var(--space-300);
+    padding-inline: clamp(1.6rem, 4vw, 2.4rem);
     border-radius: 2rem;
-    max-width: 38.4rem;
-    width: 100%;
+    max-inline-size: 38.4rem;
+    inline-size: 100%;
     border: 0.1rem solid black;
     box-shadow: 0.8rem 0.8rem 0rem rgba(0, 0, 0);
 }
 
 .blog-card__image {
     border-radius: 2.4rem;
-    max-width: 100%;
-    margin-bottom: var(--space-150);
+    max-inline-size: 100%;
+    margin-block-end: var(--space-150);
 }
 
 .blog-card__badge {
     display: flex;
     place-items: center;
     align-self: flex-start;
-    padding: 0.5rem 1.2rem;
+    padding-block: 0.5rem;
+    padding-inline: 1.2rem;
     font-weight: 700;
     color: var(--Gray-950-color__title);
     font-size: 1.4rem;
     background-color: var(--Yellow);
     border-radius: 0.4rem;
-    
-    
+
+
 }
 
 .blog-card__date {
@@ -96,7 +103,7 @@ body {
     transition: color 0.2s ease;
 }
 
-.blog-card__title:hover{
+.blog-card__title:hover {
     color: var(--Yellow);
 }
 
@@ -106,16 +113,16 @@ body {
     color: var(--Gray-500-color__paragraph);
 }
 
-.blog-card__Greg_image{
-    width: 3.2rem;
-    height: 3.2rem;
+.blog-card__Greg_image {
+    inline-size: 3.2rem;
+    block-size: 3.2rem;
 }
 
-.blog-card__Greg__name__image{
+.blog-card__Greg__name__image {
     display: flex;
     align-items: center;
     gap: var(--space-100);
-    margin-top: 1.2rem;
+    margin-block-start: 1.2rem;
 }
 
 .blog-card__username {
@@ -127,7 +134,7 @@ body {
 .attribution {
     font-size: 1.2rem;
     text-align: center;
-    padding-top: 1.3rem;
+    padding-block-start: 1.3rem;
 }
 
 .attribution a {
@@ -135,16 +142,20 @@ body {
     text-decoration: none;
 }
 
-a:focus-visible{
+a:focus-visible {
     outline: 0.2rem solid black;
     outline-offset: 0.2rem
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
-a{
-    text-decoration: none;
-    transition: color 0.2s ease;
+@media (prefers-reduced-motion: reduce) {
+
+    a,
+    .blog-card__title,
+    .attribution a {
+        transition: none;
+    }
 }
