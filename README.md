@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://frontendmentor.io[]](https://www.frontendmentor.io/profile/matvejbezvodinskih642-create)
+- Solution URL: [https://frontendmentor.io[Matvey]](https://www.frontendmentor.io/profile/matvejbezvodinskih642-create)
 - Live Site URL: [Frontend Mentor | Blog preview card](https://jovermer-frontend.github.io/blog-preview-card-main/)
 
 ## My process
