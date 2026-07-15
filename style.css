@@ -27,10 +27,15 @@ html {
 body {
     font-family: 'Figtree', sans-serif;
     background-color: var(--Yellow-body__fon);
-
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    grid-template-rows: 1fr;
 }
 
 .blog-card {
+    display: flex;
+    flex-direction: column;
     background-color: var(--White-blog-card__fon);
 }
 
@@ -47,6 +52,7 @@ body {
 .blog-card__username {}
 
 .attribution {
+    grid-template-rows: auto;
     font-size: 0.6875rem;
     text-align: center;
 }
