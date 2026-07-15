@@ -27,13 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Solution Screenshot](./assets/images/screenshot.png)
-_(Note: To add your own screenshot, replace this path with your image or delete this line)_
+![Solution Screenshot](c:\Users\matve\Downloads\343shots_so.png)
 
 ### Links
 
-- Solution URL: [https://frontendmentor.io[замените*на*свой_id]](https://frontendmentor.io)
-- Live Site URL: [](https://github.com)
+- Solution URL: [https://frontendmentor.io[]](https://www.frontendmentor.io/profile/matvejbezvodinskih642-create)
+- Live Site URL: [Frontend Mentor | Blog preview card](https://jovermer-frontend.github.io/blog-preview-card-main/)
 
 ## My process
 
@@ -72,5 +71,5 @@ In my next projects, I want to dive deeper into web accessibility (a11y) standar
 
 ## Author
 
-- Frontend Mentor - @[Matvey]()
+- Frontend Mentor - @[Matvey](https://www.frontendmentor.io/profile/matvejbezvodinskih642-create)
 - GitHub - @[jovermer-frontend](https://github.com/jovermer-frontend)
