@@ -111,6 +111,7 @@ a {
     font-weight: 500;
     font-size: clamp(1.4rem, 4vw, 1.6rem);
     color: var(--Gray-500-color__paragraph);
+    line-height: 2.5rem;
 }
 
 .blog-card__Greg_image {
