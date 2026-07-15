@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Solution Screenshot](c:\Users\matve\Downloads\343shots_so.png)
+![Solution Screenshot](343shots_so.png)
 
 ### Links
 
